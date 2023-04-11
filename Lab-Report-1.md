@@ -1,7 +1,5 @@
 # Lab Report #1
-Horizontal rule:
 
----
 Installing VS code:
 
 To install VS code visit the VS code website: [Visual Studio Code](https://code.visualstudio.com/), and follow the instructions to install VS code for Mac OS/Windows. 
