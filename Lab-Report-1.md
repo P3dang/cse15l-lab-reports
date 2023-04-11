@@ -17,7 +17,10 @@ it states “Enter your username”. Proceed by clicking on the "I want to reset
 DUO app authentication and email confirmation. Open the email and change/reset your password with the instructions provided on the website. Before going 
 onto the next step make sure to wait around 5 minutes for the system to recognize your new password.
 
-These next steps can be done with either the Terminal or VS code. Enter the following code into your terminal: ssh _________@ieng6.ucsd.edu, 
+These next steps can be done with either the Terminal or VS code. Enter the following code into your terminal: 
+
+ssh _________@ieng6.ucsd.edu,
+
 replacing the underscore with your CSE 15l account username. The terminal should prompt you with “Are you sure you want to continue connecting 
 (yes/no/[fingerprint])?” just type in yes. Next enter your new password that was created earlier into the terminal. You will know you’ve successfully 
 logged in when the terminal looks like this.
