@@ -29,7 +29,7 @@ logged in when the terminal looks like this.
 
 ![IMAGE](Screen Shot 2023-04-10 at 5.40.28 PM.png)
 
-Trying Some Commands:
+    Trying Some Commands:
 
 After successfully entering the UCSD server, you can try using some of the command seen below. 
 
