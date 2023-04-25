@@ -33,17 +33,18 @@ logged in when the terminal looks like this.
 
 After successfully entering the UCSD server, you can try using some of the command seen below. 
 
-`cd ~ `
 
-`cd`
+`cd` :  allows you to change the working directory 
 
-`ls - lat`
+`pwd` : prints out the current working directory 
 
-`ls <directory>` where `directory>` is `/home/linux/ieng6/cs15lsp23/cs12lsp23adc`, where the `abv` is one of the other group members' username
+`ls` : list out all the files and folders within this path
 
-`cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+`ls <directory>` where `directory>` is `/home/linux/ieng6/cs15lsp23/cs12lsp23adc`, where the `abc` is one of the other group members' username
 
-`cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+`cp` : Copies a file from one location to another
+
+`cat` : this basically runs the the file
 
 
 Here is an example of what should happen when you enter some of the commands above. 
