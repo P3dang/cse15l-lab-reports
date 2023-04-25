@@ -35,6 +35,8 @@ After successfully entering the UCSD server, you can try using some of the comma
 
 ![IMAGE](Screen Shot 2023-04-10 at 5.48.55 PM.png)
 
+'cd ~'
+
 Here is an example of what should happen when you enter some of the commands above. 
 
 ![IMAGE](Screen Shot 2023-04-05 at 6.05.38 PM.png)
