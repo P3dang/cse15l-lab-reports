@@ -33,12 +33,18 @@ logged in when the terminal looks like this.
 
 After successfully entering the UCSD server, you can try using some of the command seen below. 
 
-`cd ~ ` 
+`cd ~ `
+
 `cd`
+
 `ls - lat`
+
 `ls <directory>` where `directory>` is `/home/linux/ieng6/cs15lsp23/cs12lsp23adc`, where the `abv` is one of the other group members' username
+
 `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+
 `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+
 
 Here is an example of what should happen when you enter some of the commands above. 
 
