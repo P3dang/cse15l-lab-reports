@@ -21,7 +21,7 @@ onto the next step make sure to wait around 5 minutes for the system to recogniz
 
 These next steps can be done with either the Terminal or VS code. Enter the following code into your terminal: 
 
-''' ssh _________@ieng6.ucsd.edu ''' 111111
+    ssh _________@ieng6.ucsd.edu
 
 replacing the underscore with your CSE 15l account username. The terminal should prompt you with “Are you sure you want to continue connecting 
 (yes/no/[fingerprint])?” just type in yes. Next enter your new password that was created earlier into the terminal. You will know you’ve successfully 
