@@ -1,1 +1,1 @@
-find . -type [file_type]
+    find . -type [file_type]
