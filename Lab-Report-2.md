@@ -39,6 +39,7 @@ class StringServer {
 ```
 
 Examples of using `/add-message`:
+
 ![Image](Screen Shot 2023-05-10 at 9.00.30 PM.png)
 
 In order for me to run this code, I would first have to compile both StringServer.java and Server.java. The revelent arguments are `/add-message?s=<string>` which is added to the end of the URL to add a string of your choice. Within my code a relevent field is the num, whichs holds the String that are being printed on the local URL. Also I added hello by adding `/add-message?s=Hello` to the end of my URL.
