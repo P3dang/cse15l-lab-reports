@@ -1,6 +1,51 @@
 # Part 1
+Code for StringServer:
+```
+import java.io.IOException;
+import java.net.URI;
+
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+    String num = "";
+
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return String.format("%s", num);
+        } else if (url.getPath().equals("/add-message")) {
+            String[] parameters = url.getQuery().split("=");
+            num += parameters[1]+"\n";
+            return String.format("%s, Message has been added!", parameters[1]);
+        
+            }
+            return "404 Not Found!";
+        }
+    }
 
 
+class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+
+```
+
+Examples of using `/add-message`:
+![Image](Screen Shot 2023-05-10 at 9.00.30 PM.png)
+
+In order for me to run this code, I would first have to compile both StringServer.java and Server.java. The revelent arguments are `/add-message?s=<string>` which is added to the end of the URL to add a string of your choice. Within my code a relevent field is the num, whichs holds the String that are being printed on the local URL. Also I added hello by adding `/add-message?s=Hello` to the end of my URL.
+
+![Image](Screen Shot 2023-05-10 at 9.02.35 PM.png)
+
+The methods that are being called in this code is StringServer.java and Server.java. The relevent arguments in this screenshot are `/add-message?s=elloH`, and a relevent field is the nums field holding the String of words in the URL. 
 # Part 2 
 
 Code before changes:
