@@ -4,7 +4,7 @@
 
 **Clone your fork of the repository from your Github account:**
   <img width="1469" alt="image" src="https://github.com/P3dang/cse15l-lab-reports/assets/130012963/d0a04f81-dfef-45da-a7e5-d2132dfc4a47">
-  Open https://github.com/ucsd-cse15l-s23/lab7, click on Fork, click on Creat Fork, click on URL, press `<command>` + a, press `<command>` + c, type `git clone`, press `<command> + v`, press `<enter>`.
+  Open https://github.com/ucsd-cse15l-s23/lab7, click on Fork, click on Creat Fork, click on URL, press `<command>` + a, press `<command>` + c, type `git clone`, press `<command> + v`, press `<enter>`. Calling `git clone` downloads the file into your current directory. This allows you to work with the files.
 
 **Run the tests, demonstrating that they fail:**
   
